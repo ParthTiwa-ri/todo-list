@@ -1,5 +1,7 @@
 /*  CSS Reset                  */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -81,5 +83,5 @@ html,
 body {
   margin: 0;
   height: 100%;
-  overflow: auto
+  overflow: auto;
 }
